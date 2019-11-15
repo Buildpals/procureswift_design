@@ -93,7 +93,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="address">Phone number</label>
+                            <label for="phone">Phone number</label>
                             <input type="tel" class="form-control" id="phone" aria-describedby="phone_help" required>
                             <small id="phone_help" class="form-text text-muted">
                                 This number should be active so we can reach you when we're delivering your item
@@ -120,12 +120,12 @@
 
                         <div class="form-group">
                             <label for="city">Town/City</label>
-                            <input type="text" class="form-control" id="city" aria-describedby="city_help">
+                            <input type="text" class="form-control" id="city">
                         </div>
 
                         <div class="form-group">
-                            <label for="city">Region</label>
-                            <select class="form-control" id="region" aria-describedby="region_help">
+                            <label for="region">Region</label>
+                            <select class="form-control" id="region">
                                 <option>Greater Accra Region</option>
                                 <option>Ashanti Region</option>
                                 <option>Central Region</option>
@@ -190,7 +190,7 @@
 
 <script src="intlTelInput/js/intlTelInput.js"></script>
 <script>
-    var input = document.querySelector("#phone");
+    let input = document.querySelector("#phone");
     window.intlTelInput(input, {initialCountry: "gh"});
 </script>
 </body>
