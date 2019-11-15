@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="intlTelInput/css/intlTelInput.css">
+
+    <title>ProcureSwift</title>
+</head>
+<body>
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://www.procureswift.com/img/Procurewift-05.png" height="45" alt="">
+        </a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row mt-5">
+        <div class="col-lg-7 mx-auto">
+
+            <div class="card mb-3">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51xkXVGpYdL._AC_SL1280_.jpg"
+                     class="card-img-top p-2 img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Eyekepper Computer Reading Glasses-0.00x, Tortoise-Red</h5>
+                    <div class="text-danger">$10.00</div>
+                    <div class="text-small text-success">In Stock</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-5 mx-auto">
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">Order Summary</div>
+                    <dl class="row mt-4">
+                        <dt class="col-9">Items (5):</dt>
+                        <dd class="col-3 text-right">
+                            $50.00
+                        </dd>
+
+                        <dt class="col-9">Shipping and Handling:</dt>
+                        <dd class="col-3 text-right">
+                            $40.00
+                            <hr>
+                        </dd>
+
+                        <dt class="col-9">Total before duty:</dt>
+                        <dd class="col-3 text-right">
+                            $90.00
+                        </dd>
+
+                        <dt class="col-9">Estimated duty to be collected:</dt>
+                        <dd class="col-3 text-right">
+                            $10.00
+                        </dd>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <dt class="col-9 text-truncate">Order Total:</dt>
+                        <dd class="col-3 text-right">$100.00</dd>
+                    </dl>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7">
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">Delivery Information</div>
+                    <form action="order.html">
+                        <div class="form-group">
+                            <label for="full_name">Full name</label>
+                            <input type="text" class="form-control" id="full_name" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Phone number</label>
+                            <input type="tel" class="form-control" id="phone" aria-describedby="phone_help" required>
+                            <small id="phone_help" class="form-text text-muted">
+                                This number should be active so we can reach you when we're delivering your item
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" aria-describedby="address_help">
+                            <small id="address_help" class="form-text text-muted">
+                                Enter your Ghana Post address if you have it
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select class="form-control" id="country" aria-describedby="country_help" disabled>
+                                <option>Ghana</option>
+                            </select>
+                            <small id="country_help" class="form-text text-muted">
+                                We only support deliveries to Ghana at the moment.
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">Town/City</label>
+                            <input type="text" class="form-control" id="city" aria-describedby="city_help">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">Region</label>
+                            <select class="form-control" id="region" aria-describedby="region_help">
+                                <option>Greater Accra Region</option>
+                                <option>Ashanti Region</option>
+                                <option>Central Region</option>
+                                <option>Eastern Region</option>
+                                <option>Oti Region</option>
+                                <option>Bono East Region</option>
+                                <option>Ahafo Region</option>
+                                <option>Bono Region</option>
+                                <option>North East Region</option>
+                                <option>Savanna</option>
+                                <option>Western Region</option>
+                                <option>Western North Region</option>
+                                <option>Volta Region</option>
+                                <option>Northern Region</option>
+                                <option>Upper East Region</option>
+                                <option>Upper West Region</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-success btn-block">Make Payment</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Redirecting to Hubtel API...</p>
+                    <p><small>Actually nothing will happen since it has not been implemented yet</small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Go to index.html</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<script src="intlTelInput/js/intlTelInput.js"></script>
+<script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {initialCountry: "gh"});
+</script>
+</body>
+</html>
