@@ -7,14 +7,9 @@
 
     <link href="https://res.cloudinary.com/tenderswift/image/upload/c_scale,h_32/v1564315094/ProcureSwiftLogos/procureswift-square.png" rel="icon">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="../intlTelInput/css/intlTelInput.css">
-
     <title>ProcureSwift</title>
+
+    <script src="main.js"></script>
 </head>
 <body>
 <!-- Just an image -->
@@ -61,6 +56,39 @@
                                        id="quantity field"
                                        placeholder="Enter Quantity">
                             </div>
+
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="region">Region</label>
+                                        <select class="form-control" id="region">
+                                            <option>Greater Accra Region</option>
+                                            <option>Ashanti Region</option>
+                                            <option>Central Region</option>
+                                            <option>Eastern Region</option>
+                                            <option>Oti Region</option>
+                                            <option>Bono East Region</option>
+                                            <option>Ahafo Region</option>
+                                            <option>Bono Region</option>
+                                            <option>North East Region</option>
+                                            <option>Savanna Region</option>
+                                            <option>Western Region</option>
+                                            <option>Western North Region</option>
+                                            <option>Volta Region</option>
+                                            <option>Northern Region</option>
+                                            <option>Upper East Region</option>
+                                            <option>Upper West Region</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="city">Town/City</label>
+                                        <input type="text" class="form-control" id="city">
+                                    </div>
+                                </div>
+                            </div>
+
                             <br>
                             <button type="submit" class="btn btn-accent btn-block">Get Shipping Cost</button>
                         </form>
@@ -73,7 +101,7 @@
 
 
 <!-- Icons Grid -->
-<section class="features-icons bg-light text-center py-5">
+<section class="features-icons text-center py-5">
     <div class="container">
         <div class="row my-5">
             <div class="col-lg-4">
@@ -144,7 +172,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="footer bg-light py-5">
+<footer class="footer py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -168,13 +196,5 @@
     </div>
 </footer>
 
-
-<script src="main.js"></script>
-
-<script src="../intlTelInput/js/intlTelInput.js"></script>
-<script>
-    let input = document.querySelector("#phone");
-    window.intlTelInput(input, {initialCountry: "gh"});
-</script>
 </body>
 </html>

@@ -8,13 +8,16 @@
     <link href="https://res.cloudinary.com/tenderswift/image/upload/c_scale,h_32/v1564315094/ProcureSwiftLogos/procureswift-square.png" rel="icon">
 
     <title>ProcureSwift</title>
+
+    <script src="main.js"></script>
+
 </head>
 <body>
 <!-- Just an image -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-primary">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="https://www.procureswift.com/img/Procurewift-05.png" height="45" alt="">
+            <img src="img/Procurewift-17.png" height="60" alt="">
         </a>
     </div>
 </nav>
@@ -40,7 +43,7 @@
 
             <div class="card mb-3">
                 <div class="card-body">
-                    <div class="card-title">Order Summary</div>
+                    <h5 class="card-title">Order Summary</h5>
                     <dl class="row mt-4">
                         <dt class="col-9">Items (5):</dt>
                         <dd class="col-3 text-right">
@@ -70,6 +73,7 @@
                         <dt class="col-9 text-truncate">Order Total:</dt>
                         <dd class="col-3 text-right">$100.00</dd>
                     </dl>
+                    <div class="text-small text-center">Delivers by 28th November</div>
                 </div>
             </div>
 
@@ -82,7 +86,7 @@
 
             <div class="card mb-3">
                 <div class="card-body">
-                    <div class="card-title">Delivery Information</div>
+                    <h5 class="card-title">Delivery Information</h5>
                     <form action="">
                         <div class="form-group">
                             <label for="full_name">Full name</label>
@@ -106,21 +110,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="country">Country</label>
-                            <select class="form-control" id="country" aria-describedby="country_help" disabled>
-                                <option>Ghana</option>
-                            </select>
-                            <small id="country_help" class="form-text text-muted">
-                                We only support deliveries to Ghana at the moment.
-                            </small>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="city">Town/City</label>
-                            <input type="text" class="form-control" id="city">
-                        </div>
-
-                        <div class="form-group">
                             <label for="region">Region</label>
                             <select class="form-control" id="region">
                                 <option>Greater Accra Region</option>
@@ -132,7 +121,7 @@
                                 <option>Ahafo Region</option>
                                 <option>Bono Region</option>
                                 <option>North East Region</option>
-                                <option>Savanna</option>
+                                <option>Savanna Region</option>
                                 <option>Western Region</option>
                                 <option>Western North Region</option>
                                 <option>Volta Region</option>
@@ -140,6 +129,11 @@
                                 <option>Upper East Region</option>
                                 <option>Upper West Region</option>
                             </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">Town/City</label>
+                            <input type="text" class="form-control" id="city">
                         </div>
 
                         <button type="submit" class="btn btn-success btn-block">Make Payment</button>
@@ -152,13 +146,5 @@
 
 </div>
 
-
-<script src="main.js"></script>
-
-<script src="../intlTelInput/js/intlTelInput.js"></script>
-<script>
-    let input = document.querySelector("#phone");
-    window.intlTelInput(input, {initialCountry: "gh"});
-</script>
 </body>
 </html>

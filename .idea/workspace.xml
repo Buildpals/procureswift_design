@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54783a5b-5ac6-4e9c-9ead-a76d7c25072a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/416250f60d785a2e02f17e054d2e4e44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/d429a5777afaf2fc349652e812e9bb11.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/css/intlTelInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/intlTelInput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/css/intlTelInput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/intlTelInput.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/img/flags.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/img/flags.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/img/flags@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/img/flags@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput-jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput-jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput-jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput-jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intlTelInput/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573814469828</updated>
       <workItem from="1573814470916" duration="10988000" />
-      <workItem from="1573834459935" duration="8684000" />
+      <workItem from="1573834459935" duration="13993000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1573826345320</created>
@@ -118,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573827217649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Add webpack for bootstrap customization">
+      <created>1573843203581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573843203581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +144,7 @@
     <MESSAGE value="Few Corrections" />
     <MESSAGE value="Remove unnecessary modal" />
     <MESSAGE value="feat: Add favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add favicon" />
+    <MESSAGE value="feat: Add webpack for bootstrap customization" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add webpack for bootstrap customization" />
   </component>
 </project>
