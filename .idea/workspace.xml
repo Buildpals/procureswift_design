@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54783a5b-5ac6-4e9c-9ead-a76d7c25072a" name="Default Changelist" comment="" />
+    <list default="true" id="54783a5b-5ac6-4e9c-9ead-a76d7c25072a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/css/intlTelInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/intlTelInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/css/intlTelInput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/css/intlTelInput.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/img/flags.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/img/flags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/img/flags@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/img/flags@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput-jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput-jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput-jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput-jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/js/intlTelInput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/intlTelInput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intlTelInput/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/intlTelInput/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -30,13 +50,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -62,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573814469828</updated>
-      <workItem from="1573814470916" duration="10884000" />
+      <workItem from="1573814470916" duration="10988000" />
+      <workItem from="1573834459935" duration="8684000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1573826345320</created>
@@ -85,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573826846025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Add favicon">
+      <created>1573827217649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573827217649</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,6 +141,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Few Corrections" />
     <MESSAGE value="Remove unnecessary modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary modal" />
+    <MESSAGE value="feat: Add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add favicon" />
   </component>
 </project>

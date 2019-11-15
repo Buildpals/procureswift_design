@@ -1,0 +1,18 @@
+$blue: #007bff;
+$midnight-blue: #2a3e55;
+$yellow-orange: #f9b13c;
+
+$body-bg: #dedede;
+
+$theme-colors: (
+        primary: $midnight-blue,
+        accent: $yellow-orange
+);
+
+$link-color: $blue;
+
+$container-max-widths: (
+        lg: 980px
+);
+
+$grid-gutter-width: 20px;

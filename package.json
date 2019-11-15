@@ -1,0 +1,37 @@
+{
+  "name": "procureswift_design",
+  "version": "1.0.0",
+  "description": "Design for ProcureSwift website",
+  "pivate": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.7.1",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buildpals/procureswift_design.git"
+  },
+  "author": "ohara.invent@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buildpals/procureswift_design/issues"
+  },
+  "homepage": "https://github.com/Buildpals/procureswift_design#readme"
+}
