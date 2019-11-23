@@ -4,13 +4,15 @@
   "description": "Design for ProcureSwift website",
   "pivate": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "bootstrap": "^4.3.1",
     "intl-tel-input": "^16.0.7",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "autoprefixer": "^9.7.1",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
