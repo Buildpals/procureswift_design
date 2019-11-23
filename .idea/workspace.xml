@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54783a5b-5ac6-4e9c-9ead-a76d7c25072a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573843203581</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: Compress images to improve load speed">
+      <created>1574501407653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574501407653</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Add delivery method selector and remove town or city">
+      <created>1574509511197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574509511197</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,8 @@
     <MESSAGE value="Remove unnecessary modal" />
     <MESSAGE value="feat: Add favicon" />
     <MESSAGE value="feat: Add webpack for bootstrap customization" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add webpack for bootstrap customization" />
+    <MESSAGE value="fix: Compress images to improve load speed" />
+    <MESSAGE value="feat: Add delivery method selector and remove town or city" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add delivery method selector and remove town or city" />
   </component>
 </project>

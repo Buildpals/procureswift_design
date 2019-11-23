@@ -38,58 +38,55 @@
                     <div class="card-body">
                         <form action="order.html">
                             <div class="form-group">
-                                <label for="url-field">What item do you want to purchase?</label>
+                                <label for="url_field">What item do you want to purchase?</label>
 
                                 <input type="text"
                                        class="form-control"
-                                       id="url-field"
+                                       id="url_field"
                                        required
                                        placeholder="Enter Amazon URL">
                             </div>
                             <div class="form-group">
-                                <label for="quantity field">How many do you want to buy?</label>
+                                <label for="quantity_field">How many do you want to buy?</label>
 
                                 <input type="number"
                                        min="1"
                                        required
                                        class="form-control"
-                                       id="quantity field"
+                                       id="quantity_field"
                                        placeholder="Enter Quantity">
                             </div>
 
-                            <div class="form-row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="region">Region</label>
-                                        <select class="form-control" id="region">
-                                            <option>Greater Accra Region</option>
-                                            <option>Ashanti Region</option>
-                                            <option>Central Region</option>
-                                            <option>Eastern Region</option>
-                                            <option>Oti Region</option>
-                                            <option>Bono East Region</option>
-                                            <option>Ahafo Region</option>
-                                            <option>Bono Region</option>
-                                            <option>North East Region</option>
-                                            <option>Savanna Region</option>
-                                            <option>Western Region</option>
-                                            <option>Western North Region</option>
-                                            <option>Volta Region</option>
-                                            <option>Northern Region</option>
-                                            <option>Upper East Region</option>
-                                            <option>Upper West Region</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="city">Town/City</label>
-                                        <input type="text" class="form-control" id="city">
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="delivery_method">Delivery method</label>
+                                <select class="form-control" id="delivery_method">
+                                    <option>Deliver by Sea</option>
+                                    <option>Deliver by Air</option>
+                                </select>
                             </div>
 
-                            <br>
+                            <div class="form-group">
+                                <label for="region">Region</label>
+                                <select class="form-control" id="region">
+                                    <option>Greater Accra Region</option>
+                                    <option>Ashanti Region</option>
+                                    <option>Central Region</option>
+                                    <option>Eastern Region</option>
+                                    <option>Oti Region</option>
+                                    <option>Bono East Region</option>
+                                    <option>Ahafo Region</option>
+                                    <option>Bono Region</option>
+                                    <option>North East Region</option>
+                                    <option>Savanna Region</option>
+                                    <option>Western Region</option>
+                                    <option>Western North Region</option>
+                                    <option>Volta Region</option>
+                                    <option>Northern Region</option>
+                                    <option>Upper East Region</option>
+                                    <option>Upper West Region</option>
+                                </select>
+                            </div>
+
                             <button type="submit" class="btn btn-accent btn-block">Get Shipping Cost</button>
                         </form>
                     </div>
