@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54783a5b-5ac6-4e9c-9ead-a76d7c25072a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/privacy_policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/refund_policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/terms.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +36,14 @@
   </component>
   <component name="ProjectId" id="1TeJ8cBueFrXWkiNVQ5DUgqILbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
@@ -43,25 +51,25 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -77,6 +85,8 @@
       <updated>1573814469828</updated>
       <workItem from="1573814470916" duration="10988000" />
       <workItem from="1573834459935" duration="13993000" />
+      <workItem from="1574958210674" duration="848000" />
+      <workItem from="1579344919621" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1573826345320</created>
@@ -134,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574509775595</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix: Reduce size of main.js by using Tree-shaking for fontawesome">
+      <created>1574511686069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574511686069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +178,29 @@
     <MESSAGE value="feat: Add webpack for bootstrap customization" />
     <MESSAGE value="fix: Compress images to improve load speed" />
     <MESSAGE value="feat: Add delivery method selector and remove town or city" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add delivery method selector and remove town or city" />
+    <MESSAGE value="fix: Reduce size of main.js by using Tree-shaking for fontawesome" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Reduce size of main.js by using Tree-shaking for fontawesome" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="511" y="150" width="888" height="814" key="CommitChangelistDialog2" timestamp="1579347251778">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="511" y="150" width="888" height="814" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1579347251778" />
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom" timestamp="1574959060909">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1574959060909" />
+    <state width="1897" height="275" key="GridCell.Tab.0.center" timestamp="1574959060907">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1574959060907" />
+    <state width="1897" height="275" key="GridCell.Tab.0.left" timestamp="1574959060906">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1574959060906" />
+    <state width="1897" height="275" key="GridCell.Tab.0.right" timestamp="1574959060908">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1574959060908" />
   </component>
 </project>

@@ -13,58 +13,142 @@
     <script src="main.js"></script>
 
 </head>
+
 <body>
 <!-- Just an image -->
 <nav class="navbar navbar-light bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/Procurewift-17.png" height="60" alt="">
+        <a class="navbar-brand" href="./index.html">
+            <img height="60" alt="" src="/img/Procurewift-17.png" />
         </a>
     </div>
 </nav>
 
+<section class="container">
+    <div class="alert alert-info mt-3" role="alert">
+        Order was successfully updated.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</section>
+
 <div class="container">
 
-    <div class="row mt-5">
-        <div class="col-lg-7 mx-auto">
+    <div class="row mt-3">
 
+        <div class="col-lg-4">
             <div class="card mb-3">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/51xkXVGpYdL._AC_SL1280_.jpg"
-                     class="card-img-top p-2 img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Eyekepper Computer Reading Glasses-0.00x, Tortoise-Red</h5>
-                    <div class="text-danger">$10.00</div>
-                    <div class="text-small text-success">In Stock</div>
-                </div>
-            </div>
 
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71MV26tAQTL.jpg"
+                     class="card-img-top p-2 img-fluid" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Fitbit Versa 2 Health &amp; Fitness Smartwatch with Heart Rate, Music, Alexa Built-in, Sleep &amp; Swim Tracking, Bordeaux/Copper Rose, One Size (S &amp; L Bands Included)
+                    </h5>
+                </div>
+
+            </div>
         </div>
 
-        <div class="col-lg-5 mx-auto">
+        <div class="col-lg-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <form action="/orders/1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" /><input type="hidden" name="authenticity_token" value="QWNg42VcIeaiMcG3gAoNusMcX6Th5C4A9MzcGlkKPs+eoWtBT2AAp9Radgr1+I0TQDnErO7/SdKA+/sz+n467A==" />
+
+                        <div class="form-group">
+                            <label for="order_chosen_offer_id">Price Offers</label>
+                            <input type="hidden" name="order[chosen_offer_id]" value="" />
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="AT4Z3grftTXBIFUUS9OZXglqfJD92OhcuvqYfQAVKg7mD92bYVWXn07%2Fyv%2FJBptmWyWoCFW62s%2FO7lbBngO1CYpFbviJoO6dF6RuQhoYXoUbVRYNpzOltg%3D%3D" checked="checked" name="order[chosen_offer_id]" id="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcuvqyfqavkg7md92byvwxn072fyv2fjbptmwywocfw62s2fo7lbbngo1cypfbvijoo6df6ruqhoyxoubvrynpzoltg3d3d" />
+                                <label class="form-check-label" for="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcuvqyfqavkg7md92byvwxn072fyv2fjbptmwywocfw62s2fo7lbbngo1cypfbvijoo6df6ruqhoyxoubvrynpzoltg3d3d">$148.00 New  </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="AT4Z3grftTXBIFUUS9OZXglqfJD92OhcPrRwlYl8cMOUqvDqFeYjY3tWd%2BgpOC8ZEgGe7Hr14b8FoyMRvZfuxC3PCdQV%2FoBk9h3IdM5xLB%2BVplBIPi0x%2BUXxvHnr5tvYOc%2FBl2asaahB2OS%2BwQla2f8aoRxHjbQO" name="order[chosen_offer_id]" id="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcprrwlyl8cmouqvdqfeyjy3twd2bgpoc8zegge7hr14b8foymrvzfuxc3pcdqv2fobk9h3idm5xlb2bvplbipi0x2buxxvhnr5tvyoc2fbl2asaahb2os2bwqla2f8aorxhjbqo" />
+                                <label class="form-check-label" for="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcprrwlyl8cmouqvdqfeyjy3twd2bgpoc8zegge7hr14b8foymrvzfuxc3pcdqv2fobk9h3idm5xlb2bvplbipi0x2buxxvhnr5tvyoc2fbl2asaahb2os2bwqla2f8aorxhjbqo">$197.00 New  </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="AT4Z3grftTXBIFUUS9OZXglqfJD92Ohcx3w2YeQgMCcnmtaS2OoQffVlU0F49wsCVkrbMYat%2BMm9EAZCIvrfpS%2F%2BBv8wIK%2BPD6hflBEr3SX1PeWfkeEyi7jwWfnHEa1ck%2BtNIgmxvYsEHqnZAiPCQTc5kxQJMnVC" name="order[chosen_offer_id]" id="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcx3w2yeqgmccnmtas2ooqffvlu0f49wscvkrbmyat2bmm9eazcivrfps2f2bbv8wik2bpd6hflber3sx1pewfkeeyi7jwwfnhea1ck2btnigmxvysehqnzaipcqtc5kxqjmnvc" />
+                                <label class="form-check-label" for="order_chosen_offer_id_at4z3grfttxbifuus9ozxglqfjd92ohcx3w2yeqgmccnmtas2ooqffvlu0f49wscvkrbmyat2bmm9eazcivrfps2f2bbv8wik2bpd6hflber3sx1pewfkeeyi7jwwfnhea1ck2btnigmxvysehqnzaipcqtc5kxqjmnvc">$198.00 New  </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_item_quantity">Quantity</label>
+                            <input class="form-control" required="required" min="1" placeholder="Enter Quantity" type="number" value="1" name="order[item_quantity]" id="order_item_quantity" />
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_delivery_method">Delivery Method</label>
+                            <select class="form-control" required="required" name="order[delivery_method]" id="order_delivery_method"><option value=""></option>
+                                <option value="by_air">By air</option>
+                                <option selected="selected" value="by_sea">By sea</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_delivery_region">Region</label>
+                            <select class="form-control" required="required" name="order[delivery_region]" id="order_delivery_region"><option value=""></option>
+                                <option selected="selected" value="greater_accra">Greater accra</option>
+                                <option value="ashanti">Ashanti</option>
+                                <option value="eastern">Eastern</option></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_full_name">Full name</label>
+                            <input id="full_name" required="required" class="form-control" type="text" value="Peter O&#39;Hara Adu" name="order[full_name]" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_email">Email</label>
+                            <input id="email" required="required" class="form-control" type="text" name="order[email]" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order_phone_number">Phone number</label>
+                            <input id="phone_number" required="required" class="form-control" type="text" value="0500011505" name="order[phone_number]" />
+                            <small id="phone_help" class="form-text text-muted">
+                                This number should be active so we can reach you when we're delivering your item
+                            </small>
+                        </div>
+
+
+                        <div class="actions">
+                            <input type="submit" name="commit" value="Update Order" class="btn btn-accent btn-block" data-disable-with="Update Order" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
 
             <div class="card mb-3">
                 <div class="card-body">
                     <h5 class="card-title">Order Summary</h5>
                     <dl class="row mt-4">
-                        <dt class="col-9">Items (5):</dt>
+                        <dt class="col-9">Items (1):</dt>
                         <dd class="col-3 text-right">
-                            $50.00
+                            $148.00
                         </dd>
 
                         <dt class="col-9">Shipping and Handling:</dt>
                         <dd class="col-3 text-right">
-                            $40.00
+                            $14.80
                             <hr>
                         </dd>
 
                         <dt class="col-9">Total before duty:</dt>
                         <dd class="col-3 text-right">
-                            $90.00
+                            $162.80
                         </dd>
 
                         <dt class="col-9">Estimated duty to be collected:</dt>
                         <dd class="col-3 text-right">
-                            $10.00
+                            $14.80
                         </dd>
 
                         <div class="col-12">
@@ -73,59 +157,84 @@
 
                         <dt class="col-9 text-truncate">Order Total:</dt>
                         <dd class="col-3 text-right">
-                            $100.00
+                            $177.60
                         </dd>
                     </dl>
                     <div class="small text-center">
-                        Package will arrive in
+                        Estimated delivery
+                        <strong>
+                            By Sea
+                        </strong>
+                        to
                         <br>
-                        Greater Accra, Ghana
+                        Greater Accra Region:
                         <br>
-                        <strong>by Air</strong>
+                        <span class="text-success">28th November</span>
                         <br>
-                        on 28th November
-                        <br>
-
-                        <a href="index.html">Change delivery method</a>
                     </div>
 
 
+                    <div class="actions mt-3">
+                        <a class="btn  btn-success btn-block" onClick="payWithRave()">Make Payment</a>
+                    </div>
+
                 </div>
             </div>
 
         </div>
 
-    </div>
-
-    <div class="row">
-        <div class="col-lg-7">
-
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Contact Information</h5>
-                    <form action="">
-                        <div class="form-group">
-                            <label for="full_name">Full name</label>
-                            <input type="text" class="form-control" id="full_name" aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="phone">Phone number</label>
-                            <input type="tel" class="form-control" id="phone" aria-describedby="phone_help" required>
-                            <small id="phone_help" class="form-text text-muted">
-                                This number should be active so we can reach you when we're delivering your item
-                            </small>
-                        </div>
-
-                        <button type="submit" class="btn btn-accent btn-block">Make Payment</button>
-                    </form>
-
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+<script>
+    const publicKey = "FLWPUBK-8289a3561ffe0c40c4904e20d550db77-X";
+    var txref = Math.floor(Math.pow(10, length - 1) + Math.random() * 9 * Math.pow(10, length - 1));
+    function payWithRave() {
+        var reference = txref;
+        var phone = $('#phone_number').val();
+        var name = $('#full_name').val();
+        var email = $('#email').val();
+        if (phone = "" || name == "" || email == "") {
+            alert("Please fill out your name, email and phone number");
+            return;
+        }
+        var shiping = "14.8";
+        var price = "177.60000000000002";
+        var quantity = "1";
+        var orderId = "1";
+        var x = getpaidSetup({
+            PBFPubKey: publicKey,
+            customer_email: email,
+            amount: price,
+            customer_phone: phone,
+            currency: "USD",
+            country: 'NG',
+            txref: txref,
+            meta: [{
+                metaname: "shiping-to-ghana",
+                metavalue: "AP1234"
+            }],
+            onclose: function() {},
+            callback: function(response) {
+                var txref = response.tx.txRef; // collect txRef returned and pass to a 					server page to complete status check.
+                console.log("This is the response returned after a charge", response);
+                if (
+                    response.tx.chargeResponseCode == "00" ||
+                    response.tx.chargeResponseCode == "0"
+                ) {
+                    //show success modal
+                    window.location.href = '/payment?' + 'txtref=' + reference  + '&order_id=' + orderId + '&email=' + email + '&phone_number=' + phone + '&name=' + name + '';
+                } else {
+                    // show failure modal
+                }
+
+                x.close();
+            }
+        });
+    }
+</script>
 </body>
 </html>
